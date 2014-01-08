@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+<LinearLayout
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     android:layout_gravity="center_horizontal" >
+    <TextView
+        android:id="@+id/textviewTextVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="Version : " />  
+    <TextView
+        android:id="@+id/textviewEditVersion"
+        android:layout_width="wrap_content"      
+        android:layout_height="wrap_content"       
+        android:text="0" /> 
+</LinearLayout>
+
+<!-- DIVIDER -->
+<View   android:id="@+id/firstDivider"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:background="@color/colorMenuBackground" />
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal" >
+	
+    <ImageView
+        android:id="@+id/ivFeedBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/feedback" />
+    
+    <ImageView
+        android:id="@+id/ivAdvertise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/advertise" />
+    
+        <ImageView
+            android:id="@+id/IvTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:maxWidth="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/terms" />
+    
+</LinearLayout>
+
+</HorizontalScrollView>
+<!-- DIVIDER -->
+<View   android:id="@+id/firstDivider"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:background="@color/colorMenuBackground" />
+
+<!-- ViewPager for the awesome developers -->
+
+ <android.support.v4.view.ViewPager
+     	android:id="@+id/pagerWithTheDevelopers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+         >
+    
+     <!-- Egbert -->
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:id="@+id/EgbertPage"
+    android:orientation="vertical"
+      android:background="@android:color/white"
+     android:layout_gravity="center_horizontal" >
+
+    <ImageView
+        android:id="@+id/IVegbertPF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+        android:scaleType="centerInside"
+              android:layout_gravity="center_horizontal"
+        android:src="@drawable/egbert2" 
+        />
+
+    <TextView
+        android:id="@+id/textviewEgbertDijkstra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textSize="@dimen/TextGrootteMore"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Egbert Dijkstra" />
+    
+        <TextView
+        android:id="@+id/textviewAndroidDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="@dimen/TextGrootteMore"
+        android:layout_gravity="center_horizontal"
+        android:text="Android developer" />
+        
+         <TextView
+        android:id="@+id/textviewTheNetherlands"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/TextGrootteMore"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="The Netherlands" />
+         
+         
+             <ImageView
+        android:id="@+id/twitter_egbert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+        android:scaleType="centerInside"
+              android:layout_gravity="center_horizontal"
+        android:src="@drawable/etweet" 
+        />
+</LinearLayout>
+    
+             
+             <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:id="@+id/MerrickPage"
+    android:orientation="vertical"
+      android:background="@android:color/white"
+     android:layout_gravity="center_horizontal" >
+
+    <ImageView
+        android:id="@+id/IVMerrickPF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+              android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/fun" />
+
+    <TextView
+        android:id="@+id/textviewMLeeJr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/TextGrootteMore"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="M. Lee Jr" />
+    
+        <TextView
+        android:id="@+id/textviewIOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         android:layout_margin="5dp"
+        android:textSize="@dimen/TextGrootteMore"
+        android:text="iOS developer" />
+        
+         <TextView
+        android:id="@+id/textviewTheUnitedStates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textSize="@dimen/TextGrootteMore"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="United States" />
+             
+  	 <ImageView
+  	     android:id="@+id/twitter_Merrick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+        android:scaleType="centerInside"
+              android:layout_gravity="center_horizontal"
+        android:src="@drawable/mtweet" />
+    
+</LinearLayout>
+    
+     </android.support.v4.view.ViewPager>
+
+ 
+    <ImageView
+        android:id="@+id/IvTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:maxWidth="160dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/terms" 
+        />
+ 
+</LinearLayout>

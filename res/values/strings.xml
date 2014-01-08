@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShareMeme</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="instagram_id">12f3d466128c4805b86f889b73b8d6bb</string>
+    <string name="instagram_secret">13f1cde5e8354c018e1ca20efe3c32e6</string>
+    <string name="APP_ID">449882188366752</string>
+    <string name="callbackurl">http://www.google.com</string>
+    
+    <color name="colorMenuBackground">#232323</color>
+     <color name="colorMenuTextFields">#dadada</color>
+     <color name="colorMenuText">#000000</color>
+     
+     <string name="app_id">140583662805098</string>
+</resources>
