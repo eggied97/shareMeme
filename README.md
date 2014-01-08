@@ -8,7 +8,7 @@ It uses a couple of librarys you need to compile your self:
 
   -<a href="https://github.com/jfeinstein10/SlidingMenu"> SlidingMenu </a>
   
-  -<a href="https://github.com/JakeWharton/ActionBarSherlock"> SlidingMenu </a>
+  -<a href="https://github.com/JakeWharton/ActionBarSherlock"> ActionBarSherlock </a>
   
 The rest of the librarys are added as '.jar' in the libs folder, maybe you need to add them manualy, but they are there.
 
